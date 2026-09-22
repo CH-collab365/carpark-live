@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Leaflet marker resets */
+.leaflet-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Hide scrollbars while maintaining scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
